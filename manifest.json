@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Yandex Music - Classic Vibe Player",
+  "name": "Старый дизайн Яндекс Музыки",
   "version": "1.0",
-  "description": "Restores the classic bottom player and My Vibe center layout, removing the new redesigned player and swiper sections.",
+  "description": "Возвращает классическое отображение Моей Волны",
   "icons": {
     "128": "icon.png"
   },
