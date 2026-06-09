@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9269b891-1410-4a08-a4b0-d7651090bb44" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="7" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="yJyH4lCD" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.6029039138453802" />
+      <entry key="MS500" value="1.9037527267510859" />
+      <entry key="S2" value="1.9750174876533335" />
+      <entry key="S5" value="1.9899310855458512" />
+      <entry key="S10" value="1.9949528056877126" />
+      <entry key="S30" value="1.998314763469109" />
+      <entry key="S60" value="1.9991570264323366" />
+      <entry key="M2" value="1.9995784243531554" />
+      <entry key="M5" value="1.9998313484093426" />
+      <entry key="M10" value="1.9999156706489516" />
+      <entry key="M15" value="1.9999437796424449" />
+      <entry key="M30" value="1.9999718894261203" />
+      <entry key="H1" value="1.999985944614283" />
+      <entry key="H2" value="1.9999929722824472" />
+      <entry key="H4" value="1.9999964861350499" />
+      <entry key="D1" value="1.9999994143549842" />
+      <entry key="W1" value="1.9999999163364053" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.7588928875885049" />
+      <entry key="MS500" value="1.4403049681201576" />
+      <entry key="S2" value="1.8259551894267612" />
+      <entry key="S5" value="1.927064445309429" />
+      <entry key="S10" value="1.9629538113871747" />
+      <entry key="S30" value="1.9875202802205487" />
+      <entry key="S60" value="1.9937436104983546" />
+      <entry key="M2" value="1.9968676610664347" />
+      <entry key="M5" value="1.9987460683110103" />
+      <entry key="M10" value="1.9993728680101062" />
+      <entry key="M15" value="1.9995818750761885" />
+      <entry key="M30" value="1.999790919070482" />
+      <entry key="H1" value="1.9998954549178993" />
+      <entry key="H2" value="1.9999477263045593" />
+      <entry key="H4" value="1.9999738628636754" />
+      <entry key="D1" value="1.999995643770528" />
+      <entry key="W1" value="1.9999993776805223" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3Eu3hk9XUJWTbgx9lCpw6Jb2AkK" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.GoLinterPluginOnboardingV2": "true",
+    "RunOnceActivity.GoLinterPluginStorageMigration": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/aboba/Documents/GitHub/yandex-music-ext",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.first.attach.projects": "true"
+  }
+}]]></component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9269b891-1410-4a08-a4b0-d7651090bb44" name="Changes" comment="" />
+      <created>1781014748349</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781014748349</updated>
+      <workItem from="1781014749426" duration="698000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
