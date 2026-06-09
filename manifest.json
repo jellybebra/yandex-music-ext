@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Yandex Music - Classic Vibe Player",
+  "version": "1.0",
+  "description": "Restores the classic bottom player and My Vibe center layout, removing the new redesigned player and swiper sections.",
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://music.yandex.ru/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ]
+}
