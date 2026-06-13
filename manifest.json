@@ -23,22 +23,11 @@
         "*://music.yandex.com/*"
       ],
       "js": [
-        "content.js"
+        "inject.js"
       ],
       "run_at": "document_start",
+      "world": "MAIN",
       "all_frames": true
-    }
-  ],
-  "web_accessible_resources": [
-    {
-      "resources": ["inject.js"],
-      "matches": [
-        "*://music.yandex.ru/*",
-        "*://music.yandex.by/*",
-        "*://music.yandex.kz/*",
-        "*://music.yandex.uz/*",
-        "*://music.yandex.com/*"
-      ]
     }
   ]
 }
