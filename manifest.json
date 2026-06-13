@@ -1,21 +1,44 @@
 {
   "manifest_version": 3,
   "name": "Старый дизайн Яндекс Музыки",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Возвращает классическое отображение Моей Волны",
+  "host_permissions": [
+    "*://music.yandex.ru/*",
+    "*://music.yandex.by/*",
+    "*://music.yandex.kz/*",
+    "*://music.yandex.uz/*",
+    "*://music.yandex.com/*"
+  ],
   "icons": {
     "128": "icon.jpg"
   },
   "content_scripts": [
     {
       "matches": [
-        "*://music.yandex.ru/*"
+        "*://music.yandex.ru/*",
+        "*://music.yandex.by/*",
+        "*://music.yandex.kz/*",
+        "*://music.yandex.uz/*",
+        "*://music.yandex.com/*"
       ],
       "js": [
         "content.js"
       ],
       "run_at": "document_start",
-      "world": "MAIN"
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["inject.js"],
+      "matches": [
+        "*://music.yandex.ru/*",
+        "*://music.yandex.by/*",
+        "*://music.yandex.kz/*",
+        "*://music.yandex.uz/*",
+        "*://music.yandex.com/*"
+      ]
     }
   ]
 }

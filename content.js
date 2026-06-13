@@ -1,11 +1,17 @@
-(window.__STATE_SNAPSHOT__ ||= []).push = function(...args) {
-  args.forEach(item => {
-    const exps = item?.experiments?.experiments;
-    if (exps) {
-      ["WebNextNewWaveTab", "WebNextNewWaveTabRedesign", "WebNextNewWaveWizard"].forEach(f => {
-        if (exps[f]) exps[f] = { group: "off", value: { title: "off", enabled: false } };
-      });
+(function() {
+    console.log('[Old Vibe] Injecting override script...');
+    const script = document.createElement('script');
+    script.src = chrome.runtime.getURL('inject.js');
+    
+    // Try to copy CSP nonces if any scripts are already parsed
+    const nonceEl = document.querySelector('script[nonce]');
+    if (nonceEl) {
+        script.setAttribute('nonce', nonceEl.nonce || nonceEl.getAttribute('nonce'));
     }
-  });
-  return Array.prototype.push.apply(this, args);
-};
+    
+    // Append to documentElement immediately (document.head might be null at document_start)
+    (document.head || document.documentElement).appendChild(script);
+    
+    // Cleanup the DOM node after execution
+    script.onload = () => script.remove();
+})();
