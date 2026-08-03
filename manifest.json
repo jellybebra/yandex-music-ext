@@ -1,8 +1,12 @@
 {
   "manifest_version": 3,
   "name": "Старый дизайн Яндекс Музыки",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Возвращает классическое отображение Моей Волны",
+  "permissions": [
+    "scripting",
+    "storage"
+  ],
   "host_permissions": [
     "*://music.yandex.ru/*",
     "*://music.yandex.by/*",
@@ -13,21 +17,12 @@
   "icons": {
     "128": "icon.jpg"
   },
-  "content_scripts": [
-    {
-      "matches": [
-        "*://music.yandex.ru/*",
-        "*://music.yandex.by/*",
-        "*://music.yandex.kz/*",
-        "*://music.yandex.uz/*",
-        "*://music.yandex.com/*"
-      ],
-      "js": [
-        "inject.js"
-      ],
-      "run_at": "document_start",
-      "world": "MAIN",
-      "all_frames": true
-    }
-  ]
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Настройки старого дизайна",
+    "default_icon": "icon.jpg",
+    "default_popup": "popup.html"
+  }
 }
