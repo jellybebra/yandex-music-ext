@@ -20,11 +20,7 @@ async function getEnabled() {
     return stored[STORAGE_KEY] !== false;
 }
 
-async function updateBadge(enabled) {
-    await chrome.action.setBadgeText({ text: enabled ? 'ON' : 'OFF' });
-    await chrome.action.setBadgeBackgroundColor({
-        color: enabled ? '#2e7d32' : '#757575',
-    });
+async function updateActionTitle(enabled) {
     await chrome.action.setTitle({
         title: enabled ? 'Старый дизайн включён' : 'Старый дизайн выключен',
     });
@@ -49,7 +45,7 @@ async function applyState(enabled) {
         await chrome.scripting.unregisterContentScripts({ ids: [SCRIPT_ID] });
     }
 
-    await updateBadge(enabled);
+    await updateActionTitle(enabled);
 }
 
 async function initialize() {
