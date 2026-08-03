@@ -15,11 +15,6 @@ function queueStateOperation(operation) {
     return result;
 }
 
-async function getEnabled() {
-    const stored = await chrome.storage.local.get(STORAGE_KEY);
-    return stored[STORAGE_KEY] !== false;
-}
-
 async function updateActionTitle(enabled) {
     await chrome.action.setTitle({
         title: enabled ? 'Старый дизайн включён' : 'Старый дизайн выключен',
