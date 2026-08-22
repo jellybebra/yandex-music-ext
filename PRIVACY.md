@@ -2,7 +2,7 @@
 
 **Last Updated:** June 9, 2026
 
-This Privacy Policy describes how we handle user data in the **Yandex Music - Classic Vibe Player** Chrome extension (the "Extension").
+This Privacy Policy describes how we handle user data in the **Yandex Music - Classic Vibe Player** browser extension (the "Extension").
 
 ## 1. No Data Collection
 We believe in absolute privacy. The Extension **does not collect, store, track, or transmit** any personal data, usage metrics, browsing history, or identifiers.
