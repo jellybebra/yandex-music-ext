@@ -33,7 +33,7 @@
                 * { box-sizing: border-box; }
                 .caption { display: block; margin-bottom: 3px; color: #999; font-size: 11px; line-height: 1.4; }
                 a { display: inline-flex; align-items: center; gap: 6px; padding: 5px 0; color: #999; font-size: 12px;
-                    line-height: 1.4; text-decoration: none; transition: color 150ms; }
+                    max-width: 100%; line-height: 1.4; text-decoration: none; transition: color 150ms; }
                 a:hover { color: #fff; }
                 a:focus-visible {
                     outline: 2px solid #ffdd00; outline-offset: 3px; border-radius: 4px; }
@@ -44,7 +44,7 @@
             <span class="caption">Нравится старый дизайн?</span>
                     <a href="https://pay.cloudtips.ru/p/8f144f28" target="_blank" rel="noopener noreferrer"
                        title="Поддержать автора расширения «Старый дизайн Яндекс Музыки» — откроется страница доната"
-                       aria-label="Поддержать автора расширения «Старый дизайн Яндекс Музыки» (в новой вкладке)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></svg><span>Сказать спасибо</span></a>
+                       aria-label="Сказать спасибо автору расширения «Старый дизайн Яндекс Музыки» (в новой вкладке)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></svg><span>Сказать спасибо автору расширения</span></a>
 `;
         wave.append(host);
     }
